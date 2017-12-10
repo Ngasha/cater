@@ -30,7 +30,7 @@ background-size: cover;
 
 /*############why us######*/
 .why-us-container{
-  height: 50vh;
+  height: 70vh;
   background: #111111;
   
 }
@@ -39,17 +39,41 @@ background-size: cover;
 }
 .why p{
   text-align: center;
-  color: azure;
+  color: rgb(182, 184, 179);
   padding: 4px 6px;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.3;
-  font-family: 'lora';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .why h1, h2{
   margin: 0;
   color: #7bb909;
   text-align: center;
 }
+.why{
+  font-size: 22px;
+}
+/*media queries*/
+@media (max-width: 768px){
+  .why-us-container{
+    height:100%;
+  }
+  .talk-us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+    .sectiona{ background: linear-gradient(rgba(12, 11, 12, 0.397),
+     rgba(12, 11, 12, 0.767)),
+     url(../img/meeting.jpg)no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+     background-position-x: right;
+     width: 100%;
+     padding-bottom: 100px;
+   }
+ }
 
 .founda h5{
   color: #fff;
@@ -80,10 +104,10 @@ span{
 }
 .arrow i{
   margin-left: 50%;
-  height: 50px;
-  color: red;
+  height: 60px;
+  color: rgb(255, 174, 0);
   font-size: 60px;
-  width: 60px;
+  width: 80px;
   border-radius: 50%;
 }
 .after-menu p{
@@ -170,4 +194,11 @@ button:hover, a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/*talk to us*/
+.talk-us ul{
+  text-align: center;
+  color: #0964b9;
+  padding: 10px;
 }
