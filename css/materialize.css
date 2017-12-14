@@ -724,7 +724,7 @@ ul.staggered-list li {
 .page-footera {
   padding-top: 20px;
   color: #fff;
-  background-color: #cf6c1b;
+  background-color: #443f3de1;
 }
 
 .page-footer .footer-copyright {
@@ -1232,11 +1232,7 @@ nav ul a span.badge {
   margin-right: -0.75rem;
 }
 
-.section {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  
-}
+
 
 .section.no-pad {
   padding: 0;
